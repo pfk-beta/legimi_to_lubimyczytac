@@ -5,6 +5,8 @@ from datetime import datetime
 LEGIMI_TO_LC_RATING_MULTIPLIER = 2
 LC_DATE_FORMAT = "%Y/%m/%d"
 
+# legimi.json - jar xvf data.zip; cat data.json| jq > legimi.json
+
 with open('legimi.json') as input_f:
     content = json.load(input_f)
 
